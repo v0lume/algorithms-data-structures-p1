@@ -1,7 +1,7 @@
 import { Edge } from './Edge';
 import { Graph } from './Graph';
 import { Vertex } from './Vertex';
-import { WeightedGraph } from './WeightedGraph';
+import { WeightedGraph } from './types';
 
 const vertex1 = new Vertex('1');
 const vertex2 = new Vertex('2');

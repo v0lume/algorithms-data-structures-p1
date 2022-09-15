@@ -1,6 +1,6 @@
 import { Edge } from "./Edge";
 import { Vertex } from "./Vertex";
-import { WeightedGraph } from "./WeightedGraph";
+import { WeightedGraph } from "./types";
 
 export class Graph implements WeightedGraph<Vertex> {
     vertices: Vertex[] = [];
